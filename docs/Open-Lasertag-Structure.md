@@ -1,0 +1,29 @@
+https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5wYXJ0aWNpcGFudCBUcmlnZ2VyXG5wYXJ0aWNpcGFudCBFU1AzMlxucGFydGljaXBhbnQgSW5mYXJyZWQgTW9kdWxlXG5wYXJ0aWNpcGFudCBBbmRyaW9kIEFwcGxpY2F0aW9uXG5wYXJ0aWNpcGFudCBXZWJzZXJ2ZXJcblRyaWdnZXItPj5FU1AzMjogVHJpZ2dlciBQcmVzcyBEZXRlY3RlZCAgIFxuYWN0aXZhdGUgRVNQMzJcbkVTUDMyLT4-QW5kcmlvZCBBcHBsaWNhdGlvbjogQkxFIE5vdGlmeTogVHJpZ2dlclByZXNzZWRcblxub3B0IEFsaXZlXG5BbmRyaW9kIEFwcGxpY2F0aW9uIC0tPj4gRVNQMzI6IFNob290Q29tbWFuZCArIFBsYXllckRhdGFcbmVuZFxuRVNQMzItPj5JbmZhcnJlZCBNb2R1bGU6IFNlbmQgRGF0YVxuRVNQMzItPj5BbmRyaW9kIEFwcGxpY2F0aW9uOiBCTEUgTm90aWZ5OiBDdXJyZW50IExhdGVuY3lcbmRlYWN0aXZhdGUgRVNQMzJcbkluZmFycmVkIE1vZHVsZSAtLT4-IEVTUDMyOiBTdWNjc2Vzc1xuRVNQMzIgLT4-IEFuZHJpb2QgQXBwbGljYXRpb246IFN1Y2NzZXNzXG5Ob3RlIG92ZXIgQW5kcmlvZCBBcHBsaWNhdGlvbiwgVHJpZ2dlciAgOiBPbiBPdGhlciBQbGF5ZXJcblxuSW5mYXJyZWQgTW9kdWxlIC0-PiBFU1AzMiA6ICBJbmNvbW1pbmcgSVIgRGF0YVxuRVNQMzIgLT4-IEFuZHJpb2QgQXBwbGljYXRpb246IEJMRSBOb3RpZnk6IEhpdCBGcm9tIFBsYXllcklEXG5BbmRyaW9kIEFwcGxpY2F0aW9uIC0-PiBXZWJzZXJ2ZXIgOiBHb3QgSGl0IEZyb20gUGxheWVySURcbldlYnNlcnZlciAtLT4-IEFuZHJpb2QgQXBwbGljYXRpb246IEJyb2FkY2FzdCBFdmVudCB0byBhbGwgUGxheWVyXG5cblxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ
+
+sequenceDiagram
+participant Trigger
+participant ESP32
+participant Infarred Module
+participant Andriod Application
+participant Webserver
+Trigger->>ESP32: Trigger Press Detected   
+activate ESP32
+ESP32->>Andriod Application: BLE Notify: TriggerPressed
+
+opt Alive
+Andriod Application -->> ESP32: ShootCommand + PlayerData
+end
+ESP32->>Infarred Module: Send Data
+ESP32->>Andriod Application: BLE Notify: Current Latency
+deactivate ESP32
+Infarred Module -->> ESP32: Succsess
+ESP32 ->> Andriod Application: Succsess
+Note over Andriod Application, Trigger  : On Other Player
+
+Infarred Module ->> ESP32 :  Incomming IR Data
+ESP32 ->> Andriod Application: BLE Notify: Hit From PlayerID
+Andriod Application ->> Webserver : Got Hit From PlayerID
+Webserver -->> Andriod Application: Broadcast Event to all Player
+
+
+

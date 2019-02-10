@@ -1,0 +1,360 @@
+<svg id="mermaid-1549839079961" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1050px;" viewBox="-50 -10 1050 627"><style>
+
+
+#mermaid-1549839079961 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1549839079961 .node rect,
+#mermaid-1549839079961 .node circle,
+#mermaid-1549839079961 .node ellipse,
+#mermaid-1549839079961 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1549839079961 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1549839079961 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1549839079961 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1549839079961 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1549839079961 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1549839079961 .cluster text {
+  fill: #333; }
+
+#mermaid-1549839079961 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1549839079961 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1549839079961 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1549839079961 .actor-line {
+  stroke: grey; }
+
+#mermaid-1549839079961 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1549839079961 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1549839079961 #arrowhead {
+  fill: #333; }
+
+#mermaid-1549839079961 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1549839079961 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1549839079961 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1549839079961 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1549839079961 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1549839079961 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1549839079961 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1549839079961 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+#mermaid-1549839079961 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1549839079961 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1549839079961 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1549839079961 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1549839079961 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1549839079961 .section2 {
+  fill: #fff400; }
+
+#mermaid-1549839079961 .section1,
+#mermaid-1549839079961 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1549839079961 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1549839079961 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1549839079961 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1549839079961 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1549839079961 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1549839079961 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1549839079961 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1549839079961 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1549839079961 .task {
+  stroke-width: 2; }
+
+#mermaid-1549839079961 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1549839079961 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1549839079961 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1549839079961 .taskText0,
+#mermaid-1549839079961 .taskText1,
+#mermaid-1549839079961 .taskText2,
+#mermaid-1549839079961 .taskText3 {
+  fill: white; }
+
+#mermaid-1549839079961 .task0,
+#mermaid-1549839079961 .task1,
+#mermaid-1549839079961 .task2,
+#mermaid-1549839079961 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1549839079961 .taskTextOutside0,
+#mermaid-1549839079961 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1549839079961 .taskTextOutside1,
+#mermaid-1549839079961 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1549839079961 .active0,
+#mermaid-1549839079961 .active1,
+#mermaid-1549839079961 .active2,
+#mermaid-1549839079961 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1549839079961 .activeText0,
+#mermaid-1549839079961 .activeText1,
+#mermaid-1549839079961 .activeText2,
+#mermaid-1549839079961 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1549839079961 .done0,
+#mermaid-1549839079961 .done1,
+#mermaid-1549839079961 .done2,
+#mermaid-1549839079961 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1549839079961 .doneText0,
+#mermaid-1549839079961 .doneText1,
+#mermaid-1549839079961 .doneText2,
+#mermaid-1549839079961 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1549839079961 .crit0,
+#mermaid-1549839079961 .crit1,
+#mermaid-1549839079961 .crit2,
+#mermaid-1549839079961 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1549839079961 .activeCrit0,
+#mermaid-1549839079961 .activeCrit1,
+#mermaid-1549839079961 .activeCrit2,
+#mermaid-1549839079961 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1549839079961 .doneCrit0,
+#mermaid-1549839079961 .doneCrit1,
+#mermaid-1549839079961 .doneCrit2,
+#mermaid-1549839079961 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1549839079961 .doneCritText0,
+#mermaid-1549839079961 .doneCritText1,
+#mermaid-1549839079961 .doneCritText2,
+#mermaid-1549839079961 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1549839079961 .activeCritText0,
+#mermaid-1549839079961 .activeCritText1,
+#mermaid-1549839079961 .activeCritText2,
+#mermaid-1549839079961 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1549839079961 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1549839079961 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1549839079961 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1549839079961 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1549839079961 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1549839079961 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1549839079961 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1549839079961 .commit-id,
+#mermaid-1549839079961 .commit-msg,
+#mermaid-1549839079961 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1549839079961 {
+    color: rgba(0, 0, 0, 0.65);
+    font: ;
+  }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="616" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="75" dy="0">Trigger</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="616" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="275" dy="0">ESP32</tspan></text></g><g><line id="actor2" x1="475" y1="5" x2="475" y2="616" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="475" dy="0">Infarred Module</tspan></text></g><g><line id="actor3" x1="675" y1="5" x2="675" y2="616" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="600" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="32.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="675" dy="0">Andriod Application</tspan></text></g><g><line id="actor4" x1="875" y1="5" x2="875" y2="616" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="800" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="32.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="875" dy="0">Webserver</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" style="stroke-dasharray: 0, 0;" stroke-width="1px" d="M 9,2 V 6 L16,4 Z"></path><path fill="none" stroke="#000000" style="stroke-dasharray: 0, 0;" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7"></path></marker></defs><g><text x="175" y="93" style="text-anchor: middle;" class="messageText">Trigger Press Detected</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="102" fill="#EDF2AE" stroke="#666" width="10" height="173" rx="0" ry="0" class="activation0"></rect></g><g><text x="477.5" y="128" style="text-anchor: middle;" class="messageText">BLE Notify: TriggerPressed</text><line x1="280" y1="135" x2="675" y2="135" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><text x="477.5" y="188" style="text-anchor: middle;" class="messageText">ShootCommand + PlayerData</text><line x1="675" y1="195" x2="280" y2="195" style="stroke-dasharray: 3, 3; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><line x1="260" y1="145" x2="685" y2="145" class="loopLine"></line><line x1="685" y1="145" x2="685" y2="205" class="loopLine"></line><line x1="260" y1="205" x2="685" y2="205" class="loopLine"></line><line x1="260" y1="145" x2="260" y2="205" class="loopLine"></line><polygon points="260,145 310,145 310,158 301.6,165 260,165" class="labelBox"></polygon><text x="267.5" y="160" fill="black" class="labelText"><tspan x="267.5" fill="black">opt</tspan></text><text x="472.5" y="160" style="text-anchor: middle;" fill="black" class="loopText"><tspan x="472.5" fill="black">[ Alive ]</tspan></text></g><g><text x="377.5" y="233" style="text-anchor: middle;" class="messageText">Send Data</text><line x1="280" y1="240" x2="475" y2="240" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><text x="477.5" y="268" style="text-anchor: middle;" class="messageText">BLE Notify: Current Latency</text><line x1="280" y1="275" x2="675" y2="275" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><text x="375" y="303" style="text-anchor: middle;" class="messageText">Succsess</text><line x1="475" y1="310" x2="275" y2="310" style="stroke-dasharray: 3, 3; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="475" y="338" style="text-anchor: middle;" class="messageText">Succsess</text><line x1="275" y1="345" x2="675" y2="345" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="50" y="355" fill="#EDF2AE" stroke="#666" width="650" height="36" rx="0" ry="0" class="note"></rect><text x="46" y="379" fill="black" class="noteText"><tspan x="66" fill="black">On Other Player</tspan></text></g><g><text x="375" y="419" style="text-anchor: middle;" class="messageText">Incomming IR Data</text><line x1="475" y1="426" x2="275" y2="426" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><text x="475" y="454" style="text-anchor: middle;" class="messageText">BLE Notify: Hit From PlayerID</text><line x1="275" y1="461" x2="675" y2="461" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><text x="775" y="489" style="text-anchor: middle;" class="messageText">Got Hit From PlayerID</text><line x1="675" y1="496" x2="875" y2="496" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><text x="775" y="524" style="text-anchor: middle;" class="messageText">Broadcast Event to all Player</text><line x1="875" y1="531" x2="675" y2="531" style="stroke-dasharray: 3, 3; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><rect x="0" y="551" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="583.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="75" dy="0">Trigger</tspan></text></g><g><rect x="200" y="551" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="583.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="275" dy="0">ESP32</tspan></text></g><g><rect x="400" y="551" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="583.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="475" dy="0">Infarred Module</tspan></text></g><g><rect x="600" y="551" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="583.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="675" dy="0">Andriod Application</tspan></text></g><g><rect x="800" y="551" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="583.5" style="text-anchor: middle; font-family: &quot;Open-Sans&quot;, &quot;sans-serif&quot;;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="875" dy="0">Webserver</tspan></text></g></svg>

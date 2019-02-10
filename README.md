@@ -39,6 +39,9 @@ See the docs of the individual repos for app, tagger and server.
 * get hit (with sound notification)
 
 
+## Structure
+![Open Lasertag Structure](/docs/images/Open-Lasertag-Structure.svg)
+
 ## Request for assistance
 Idears are piling up. Come joine the forces!
 Together we could continue the work with things like:
