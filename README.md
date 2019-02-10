@@ -1,6 +1,7 @@
-![Open Lasertag Logo ](docs/images/open-lasertag-logo.svg)
 
-# Open Lasertagg
+<img src="docs/images/open-lasertag-logo.svg" alt="Open Lasertag Logo" width="100"/>
+
+# Open Lasertag
 > because Laz00rs!
 
 An cheap and DIY open Source Lasertag build on the ESP-32 and Android.
