@@ -7,6 +7,8 @@
 An cheap and DIY open Source Lasertag build on the ESP-32 and Android. With an simple and expandable achitecture.
 After breadboarding or soldering your ESP-32 together with an infraread Modul and glue a lense to it. You install the app on your phone and join a Free for all with all your friends.
 
+Have a look at my lightning talk at chaos communicatino camp 2019 (German): https://media.ccc.de/v/Camp2019-10380-lightning_talks#t=10043
+
 Of course you can get as fancy as you want, 3D-printing your own case, enhancing the Tagger with LEDs...
 
 This Project consists of thre parts:
